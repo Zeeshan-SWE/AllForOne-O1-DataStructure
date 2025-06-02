@@ -35,20 +35,16 @@ ds.incrementKey("foo");
 ds.incrementKey("bar");
 System.out.println(ds.getMaxKey()); // "foo"
 System.out.println(ds.getMinKey()); // "bar"
+
 📈 Time Complexity
 All operations run in O(1) time:
-
 incrementKey – O(1)
-
 decrementKey – O(1)
-
 getMaxKey – O(1)
-
 getMinKey – O(1)
 
 🛠️ Tech Stack
 Java
-
 Data Structures: HashMap, Doubly Linked List, HashSet
 
 📂 Repo Structure
@@ -57,5 +53,6 @@ Copy
 Edit
 AllForOneImpl.java   // Main implementation
 README.md            // Project details
+
 📬 Contact
 Feel free to connect with me on LinkedIn: https://www.linkedin.com/in/syed-s-2a3638264/ or reach out at zeeshanshahsyed14@gmail.com for collaboration or questions!
